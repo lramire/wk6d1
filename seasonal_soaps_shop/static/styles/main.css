@@ -1,0 +1,10 @@
+.shop-header {
+    background-image: url('https://www.usatoday.com/gcdn/media/2020/11/17/USATODAY/usatsports/gettyimages-524260488.jpg?width=660&height=372&format=pjpg&auto=webp');
+    background-size: cover;
+    height: 700px;
+    color: white; 
+}
+
+.shop-stats {
+    color: white; 
+}

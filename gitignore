@@ -1,0 +1,4 @@
+.env
+seasonal_soaps_env
+migrations
+__pycache__
