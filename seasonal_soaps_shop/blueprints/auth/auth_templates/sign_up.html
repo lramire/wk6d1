@@ -6,7 +6,8 @@
 <div class="container d-flex justify-content-center align-items center">
     <div class="row mt-5 p-5 shadow rounded border border-primary w-75">
         <div class="col d-flex">
-            <img src="https://static.hidive.com/titles/EIS/512x288/the-eminence-in-shadow-EIS_01_005_512x288_00.jpg" class="image-fluid rounded" alt="">
+            <img src="https://i.etsystatic.com/26637900/c/2491/2491/0/107/il/95042e/3669286033/il_600x600.3669286033_gat7.jpg"
+                class="image-fluid rounded" alt="">
         </div>
         <div class="col">
             <form class="row g-3" method="POST">
@@ -24,28 +25,28 @@
                     {{ form.username.label }}
                     {{ form.username(class='form-control mt-2', placeholder = 'jbond' )}}
                     {% for error in form.username.errors %}
-                        <span class="err-msg">{{ error }}</span>
+                    <span class="err-msg">{{ error }}</span>
                     {% endfor %}
                 </div>
                 <div class="col-12">
                     {{ form.email.label }}
                     {{ form.email(class='form-control mt-2', placeholder = 'bond007@gmail.com' )}}
                     {% for error in form.email.errors %}
-                        <span class="err-msg">{{ error }}</span>
+                    <span class="err-msg">{{ error }}</span>
                     {% endfor %}
                 </div>
                 <div class="col-6">
                     {{ form.password.label }}
                     {{ form.password(class='form-control mt-2', placeholder = 'password' )}}
                     {% for error in form.password.errors %}
-                        <span class="err-msg">{{ error }}</span>
+                    <span class="err-msg">{{ error }}</span>
                     {% endfor %}
                 </div>
                 <div class="col-6">
                     {{ form.verify_password.label }}
                     {{ form.verify_password(class='form-control mt-2', placeholder = 'password' )}}
                     {% for error in form.verify_password.errors %}
-                        <span class="err-msg">{{ error }}</span>
+                    <span class="err-msg">{{ error }}</span>
                     {% endfor %}
                 </div>
                 <div class="col-12">

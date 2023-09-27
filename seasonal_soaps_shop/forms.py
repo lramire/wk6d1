@@ -4,7 +4,7 @@ from wtforms.validators import DataRequired, EqualTo, Email
 
 
 
-#create our Login form
+#create Login form
 class LoginForm(FlaskForm):
     email = StringField('Email', validators=[ DataRequired(), Email() ])
     password = PasswordField('Password', validators = [ DataRequired()])
@@ -12,7 +12,7 @@ class LoginForm(FlaskForm):
     submit = SubmitField('Sign In')
 
 
-#create our Register Form
+#create Register Form
 class RegisterForm(FlaskForm):
     first_name = StringField('First Name')
     last_name = StringField('Last Name')
@@ -24,7 +24,7 @@ class RegisterForm(FlaskForm):
 
 
 
-#creat our Product Form
+#create Product Form
 class ProductForm(FlaskForm):
     name = StringField("Product Name", validators=[ DataRequired()])
     image = StringField("Img Url **Optional")
